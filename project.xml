@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<!-- NMML reference: https://gist.github.com/1763850 -->
+	
+	<!-- metadata, make sure 'package' is at least 3 segments (ie. com.mycompany.myproject) -->
+	<meta title="Twisted" package="Twisted" version="1.0.0" company="wuey99" />
+	
+	<!-- output -->
+	<app main="Main" file="Twisted" path="bin" />
+	
+	<window background="#000000" fps="30" />
+	<window width="700" height="550" unless="mobile" />
+	<window orientation="landscape" vsync="false" antialiasing="0" if="cpp" />
+	
+	<!-- classpath, haxe libs -->
+	<source path="src" />
+	<source path="../kx/src"></source>
+	<haxelib name="openfl" version="7.0.0" />
+	<haxelib name="hxcpp" version="3.4.188" />
+	<haxelib name="actuate" version="1.8.7" />
+	<haxelib name="box2d" version="1.2.3" />
+	<haxelib name="crashdumper"/>
+	<haxelib name="swf" version="2.3.1" />
+	
+	<!-- assets -->
+	<icon path="assets/openfl.svg" />
+	<!-- assets path="assets/img" rename="img" /-->
+	
+	<!-- optimize output
+	<haxeflag name="-dce full" /> -->
+	
+<library path="src\\assets\\Cows\\Project\\common\\B910045E-55B8-65B8-AC64-5D073BC12645-CircusSpawnerRing.swf" preload="true" generate="true" />
+<library path="src\\assets\\Cows\\Project\\common\\19F6B1AA-03E6-D487-299C-EE5635F445BB-CircusSpawner.swf" preload="true" generate="true" />
+<library path="src\\assets\\Cows\\Project\\common\\9DCA8791-98B8-3CEC-6C3F-AB4A1EC16E39-CircusSpawnerBG.swf" preload="true" generate="true" />
+<library path="src\\assets\\Cows\\Project\\common\\DA77F7D7-643E-CF43-7FD6-39982570804C-Zone_Icon.swf" preload="true" generate="true" />
+<library path="src\\assets\\Cows\\Project\\common\\21046189-998B-2649-B68D-A0FAF4AA6729-StarterRing.swf" preload="true" generate="true" />
+	
+</project>

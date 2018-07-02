@@ -1,0 +1,115 @@
+<manifest>
+  <folder name="root">
+    <folder name="system">
+      <resource name="XLogicObjectXMap" type=".as" path="Common\\Containers\\XLogicObjectXMap" src="XLogicObjectXMap.as" dst="XLogicObjectXMap.swf">
+        <classX name="XLogicObjectXMap"/>
+      </resource>
+      <resource name="ErrorImages" type=".fla" path="Common\\Images\\Error" src="ErrorImages.fla" dst="ErrorImages.swf">
+        <classX name="undefinedClass"/>
+      </resource>
+      <resource name="ManipulatorRings" type=".fla" path="Common\\Tiki\\UI\\ManipulatorRings" src="ManipulatorRings.fla" dst="ManipulatorRings.swf">
+        <classX name="Pickup_Ring"/>
+        <classX name="Move_Ring"/>
+        <classX name="Resize_Ring"/>
+        <classX name="Rotate_Ring"/>
+      </resource>
+      <resource name="Cursors" type=".fla" path="Common\\Images\\Cursors" src="cursors.fla" dst="cursors.swf">
+        <classX name="CursorClass"/>
+      </resource>
+      <resource name="TikiXMapEditorIcons" type=".fla" path="Common\\Tiki\\UI\\TikiXMapEditorIcons" src="TikiXMapEditorIcons.fla" dst="TikiXMapEditorIcons.swf">
+        <classX name="Pointer_Button"/>
+        <classX name="Hand_Button"/>
+        <classX name="Zoom_Button"/>
+        <classX name="Cross_Button"/>
+        <classX name="DocumentSave_Button"/>
+        <classX name="Tiles_Button"/>
+        <classX name="Test_Button"/>
+      </resource>
+      <resource name="ItemGrabber" type=".fla" path="Common\\Tiki\\UI\\ItemGrabber" src="ItemGrabber.fla" dst="ItemGrabber.swf">
+        <classX name="ItemGrabber"/>
+      </resource>
+      <resource name="RotatingXLogicObject" type=".as" path="Common\\Test\\RotatingXLogicObject" src="RotatingXLogicObject.as" dst="RotatingXLogicObject.swf">
+        <classX name="RotatingXLogicObject"/>
+      </resource>
+      <resource name="RotatingXLogicObject2" type=".as" path="Common\\Test\\RotatingXLogicObject2" src="RotatingXLogicObject2.as" dst="RotatingXLogicObject2.swf">
+        <classX name="RotatingXLogicObject2"/>
+      </resource>
+      <resource name="CX" type=".fla" path="Common\\CX" src="CX.fla" dst="CX.swf">
+        <classX name="CXClass"/>
+        <classX name="CX_SOLID"/>
+        <classX name="CX_SOFT"/>
+        <classX name="CX_JUMP_THRU"/>
+        <classX name="CX_UL45"/>
+        <classX name="CX_UR45"/>
+        <classX name="CX_LL45"/>
+        <classX name="CX_LR45"/>
+        <classX name="CX_UL225"/>
+        <classX name="CX_UR225"/>
+        <classX name="CX_LL225"/>
+        <classX name="CX_LR225"/>
+        <classX name="CX_UL675"/>
+        <classX name="CX_UR675"/>
+        <classX name="CX_LL675"/>
+        <classX name="CX_LR675"/>
+        <classX name="CX_SOFTLF"/>
+        <classX name="CX_SOFTRT"/>
+        <classX name="CX_SOFTUP"/>
+        <classX name="CX_SOFTDN"/>
+        <classX name="CX_SOLIDX001"/>
+        <classX name="CX_DEATH"/>
+        <classX name="CX_ICE"/>
+      </resource>
+    </folder>
+    <folder name="sprites">
+      <folder name="OctoTron">
+        <resource name="@CircusSpawner" type=".pmp" embed="false" path="common" src="DC689EDA-6B38-A2F1-AA45-E88457EBDF53-CircusSpawner.pmp" dst="DC689EDA-6B38-A2F1-AA45-E88457EBDF53-CircusSpawner.pmp" pmp_width="512" originX="99" originY="71" width="335" totalWidth="2010" height="335" regX="-167" regY="-167"/>
+        <resource name="CircusSpawnerRing" type=".fla" embed="false" path="common" src="B910045E-55B8-65B8-AC64-5D073BC12645-CircusSpawnerRing.fla" dst="B910045E-55B8-65B8-AC64-5D073BC12645-CircusSpawnerRing.swf">
+          <classX name="CircusSpawnerRing" regX="0" regY="0" width="32" height="32"/>
+        </resource>
+        <resource name="CircusSpawner" type=".fla" embed="false" path="common" src="19F6B1AA-03E6-D487-299C-EE5635F445BB-CircusSpawner.fla" dst="19F6B1AA-03E6-D487-299C-EE5635F445BB-CircusSpawner.swf">
+          <classX name="CircusSpawner" regX="0" regY="0" width="32" height="32"/>
+        </resource>
+        <resource name="@CircusSpawnerRing" type=".pmp" embed="false" path="common" src="BE5A448C-08B5-B66A-FF43-0D2A90294F81-CircusSpawnerRing.pmp" dst="BE5A448C-08B5-B66A-FF43-0D2A90294F81-CircusSpawnerRing.pmp" pmp_width="512" originX="99" originY="71" width="335" totalWidth="2345" height="335" regX="-167" regY="-167"/>
+        <resource name="@CircusSpawnerBG" type=".pmp" embed="false" path="common" src="89A7A3B2-4A1D-4545-F00D-5C6F08E6F2AD-CircusSpawnerBG.pmp" dst="89A7A3B2-4A1D-4545-F00D-5C6F08E6F2AD-CircusSpawnerBG.pmp" pmp_width="512" originX="99" originY="71" width="335" totalWidth="670" height="335" regX="-167" regY="-167"/>
+        <resource name="CircusSpawnerBG" type=".fla" embed="false" path="common" src="9DCA8791-98B8-3CEC-6C3F-AB4A1EC16E39-CircusSpawnerBG.fla" dst="9DCA8791-98B8-3CEC-6C3F-AB4A1EC16E39-CircusSpawnerBG.swf">
+          <classX name="CircusSpawnerBG" regX="0" regY="0" width="32" height="32"/>
+        </resource>
+      </folder>
+      <folder name="Misc">
+        <resource name="@Zone_Icon" type=".pmp" embed="false" path="common" src="897B865D-8DC0-F006-765C-9DC3488AD487-Zone_Icon.pmp" dst="897B865D-8DC0-F006-765C-9DC3488AD487-Zone_Icon.pmp" pmp_width="128" originX="0" originY="0" width="128" totalWidth="128" height="128" regX="0" regY="0"/>
+        <resource name="Zone_Icon" type=".fla" embed="false" path="common" src="DA77F7D7-643E-CF43-7FD6-39982570804C-Zone_Icon.fla" dst="DA77F7D7-643E-CF43-7FD6-39982570804C-Zone_Icon.swf">
+          <classX name="Zone_Icon" regX="0" regY="0" width="32" height="32"/>
+        </resource>
+      </folder>
+      <folder name="Zone">
+        <resource name="@StarterRing" type=".pmp" embed="false" path="common" src="BCAFA479-F0F9-4FB1-84F0-B485A2C00518-StarterRing.pmp" dst="BCAFA479-F0F9-4FB1-84F0-B485A2C00518-StarterRing.pmp" pmp_width="128" originX="34" originY="31" width="63" totalWidth="63" height="63" regX="-32" regY="-32"/>
+        <resource name="StarterRing" type=".fla" embed="false" path="common" src="21046189-998B-2649-B68D-A0FAF4AA6729-StarterRing.fla" dst="21046189-998B-2649-B68D-A0FAF4AA6729-StarterRing.swf">
+          <classX name="StarterRing" regX="0" regY="0" width="32" height="32"/>
+        </resource>
+      </folder>
+    </folder>
+    <folder name="Items">
+      <resource name="Zone_Item" type=".item" embed="false" path="" src="" dst="">
+        <XMapItem logicClassName="$Zone" hasLogic="true" imageClassName="Zone_Icon:Zone_Icon">
+          <params/>
+        </XMapItem>
+      </resource>
+      <resource name="StarterRing_Item" type=".item" embed="false" path="" src="" dst="">
+        <XMapItem logicClassName="$StarterRing" hasLogic="true" imageClassName="StarterRing:StarterRing">
+          <params/>
+        </XMapItem>
+      </resource>
+      <resource name="OctoTron" type=".item" embed="false" path="" src="" dst="">
+        <XMapItem logicClassName="XLogicObjectXMap:XLogicObjectXMap" hasLogic="true" imageClassName="CircusSpawnerRing:CircusSpawnerRing" boundingRect="">
+          <params/>
+        </XMapItem>
+      </resource>
+    </folder>
+    <folder name="Levels">
+      <resource name="@Intro" type=".xmap" path="common" src="B60E8B2A-F272-0F1F-49D9-81729DDDD3AE-Intro.xmap" dst="B60E8B2A-F272-0F1F-49D9-81729DDDD3AE-Intro.swf" embed="false"/>
+      <resource name="Intro" type=".as" embed="false" path="common" src="F2787110-BCAA-3A29-E745-6496F138CD92-Intro.as" dst="F2787110-BCAA-3A29-E745-6496F138CD92-Intro.swf">
+        <classX name="Intro" regX="0" regY="0" width="32" height="32"/>
+      </resource>
+    </folder>
+  </folder>
+</manifest>
