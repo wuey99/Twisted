@@ -80,7 +80,10 @@
         <resource name="Zone_Icon" type=".fla" embed="false" path="common" src="DA77F7D7-643E-CF43-7FD6-39982570804C-Zone_Icon.fla" dst="DA77F7D7-643E-CF43-7FD6-39982570804C-Zone_Icon.swf">
           <classX name="Zone_Icon" regX="0" regY="0" width="32" height="32"/>
         </resource>
-        <resource name="@Camera700x550" type=".pmp" embed="false" path="common" src="8C207714-4208-A987-BFB2-A3D0001073BC-Camera700x550.pmp" dst="8C207714-4208-A987-BFB2-A3D0001073BC-Camera700x550.pmp" pmp_width="1024" originX="0" originY="0" width="32" totalWidth="320" height="32" regX="0" regY="0"/>
+        <resource name="@Camera700x550" type=".pmp" embed="false" path="common" src="8C207714-4208-A987-BFB2-A3D0001073BC-Camera700x550.pmp" dst="8C207714-4208-A987-BFB2-A3D0001073BC-Camera700x550.pmp" pmp_width="1024" originX="218" originY="138" width="700" totalWidth="700" height="550" regX="-350" regY="-275"/>
+        <resource name="Camera700x550" type=".fla" embed="false" path="common" src="AD18745A-B311-919D-2BDD-F24CA68852E8-Camera700x550.fla" dst="AD18745A-B311-919D-2BDD-F24CA68852E8-Camera700x550.swf">
+          <classX name="Camera700x550" regX="0" regY="0" width="32" height="32"/>
+        </resource>
       </folder>
       <folder name="Zone">
         <resource name="@StarterRing" type=".pmp" embed="false" path="common" src="BCAFA479-F0F9-4FB1-84F0-B485A2C00518-StarterRing.pmp" dst="BCAFA479-F0F9-4FB1-84F0-B485A2C00518-StarterRing.pmp" pmp_width="128" originX="34" originY="31" width="63" totalWidth="63" height="63" regX="-32" regY="-32"/>
