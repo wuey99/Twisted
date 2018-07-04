@@ -17,9 +17,6 @@
 	<source path="../kx/src"></source>
 	<haxelib name="openfl" version="7.0.0" />
 	<haxelib name="hxcpp" version="3.4.188" />
-	<haxelib name="actuate" version="1.8.7" />
-	<haxelib name="box2d" version="1.2.3" />
-	<haxelib name="crashdumper"/>
 	<haxelib name="swf" version="2.3.1" />
 	
 	<!-- assets -->
