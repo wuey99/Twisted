@@ -19,71 +19,78 @@ return null;
 		public function getXML ():XML {
 return <XMap>
 	<XLayers>
-		<XLayer layer="0" vx="2900" currID="8" submapHeight="512" submapCols="32" vh="593" vy="2878" name="obj0" submapRows="32" submapWidth="512" visible="true" grid="false" vw="755">
+		<XLayer submapHeight="512" submapWidth="512" currID="28" submapRows="32" layer="0" name="obj0" vw="755" vh="593" grid="false" visible="true" vy="2893" submapCols="32" vx="3012">
 			<imageClassNames>
 				<imageClassName name="StarterRing:StarterRing"/>
 				<imageClassName name="CircusSpawnerRing:CircusSpawnerRing"/>
+				<imageClassName name="Zone_Icon:Zone_Icon"/>
 			</imageClassNames>
 			<classNames>
-				<className index="0" name="$StarterRing" count="3"/>
-				<className index="1" name="StarterRing:StarterRing" count="3"/>
-				<className index="2" name="XLogicObjectXMap:XLogicObjectXMap" count="3"/>
-				<className index="3" name="CircusSpawnerRing:CircusSpawnerRing" count="3"/>
+				<className index="0" name="$StarterRing" count="1"/>
+				<className index="1" name="StarterRing:StarterRing" count="1"/>
+				<className index="2" name="XLogicObjectXMap:XLogicObjectXMap" count="9"/>
+				<className index="3" name="CircusSpawnerRing:CircusSpawnerRing" count="12"/>
+				<className index="4" name="$Zone" count="1"/>
+				<className index="5" name="Zone_Icon:Zone_Icon" count="1"/>
+				<className index="6" name="$OctoTron" count="3"/>
 			</classNames>
 			<items/>
 			<XSubmaps>
-				<XSubmap row="5" col="6">
-					<XMapItem ch="32" logicClassIndex="2" depth="0" y="3109" frame="0" hasLogic="true" rotation="0" x="3345" scale="1" bw="335" imageClassIndex="3" name="" XMapItem="OctoTron" cy="-16" by="-167" cw="32" bx="-167" bh="335" id="3" cx="-16">
+				<XSubmap col="6" row="5">
+					<XMapItem bx="-167" logicClassIndex="6" depth="0" y="3220" frame="0" bw="335" hasLogic="true" rotation="0" x="3343" scale="1" cx="-16" imageClassIndex="3" bh="335" name="" XMapItem="OctoTron" ch="32" by="-167" cw="32" cy="-16" id="26">
 						<params/>
 					</XMapItem>
 				</XSubmap>
-				<XSubmap row="6" col="6">
-					<XMapItem ch="32" logicClassIndex="2" depth="0" y="3109" frame="0" hasLogic="true" rotation="0" x="3345" scale="1" bw="335" imageClassIndex="3" name="" XMapItem="OctoTron" cy="-16" by="-167" cw="32" bx="-167" bh="335" id="3" cx="-16">
-						<params/>
+				<XSubmap col="6" row="6">
+					<XMapItem bx="-32.5" logicClassIndex="0" depth="1" y="3395" frame="0" bw="63" hasLogic="true" rotation="0" x="3345" scale="1" cx="-16" imageClassIndex="1" bh="63" name="" XMapItem="StarterRing_Item" ch="32" by="-32.5" cw="32" cy="-16" id="6">
+						<params zone="1"/>
 					</XMapItem>
-					<XMapItem ch="32" logicClassIndex="0" depth="1" y="3395" frame="0" hasLogic="true" rotation="0" x="3345" scale="1" bw="63" imageClassIndex="1" name="" XMapItem="StarterRing_Item" cy="-16" by="-32.5" cw="32" bx="-32.5" bh="63" id="6" cx="-16">
+					<XMapItem bx="0" logicClassIndex="4" depth="0" y="3326" frame="0" bw="128" hasLogic="true" rotation="0" x="3279" scale="1" cx="-16" imageClassIndex="5" bh="128" name="" XMapItem="Zone_Item" ch="32" by="0" cw="32" cy="-16" id="9">
+						<params zone="1"/>
+					</XMapItem>
+					<XMapItem bx="-167" logicClassIndex="6" depth="0" y="3220" frame="0" bw="335" hasLogic="true" rotation="0" x="3343" scale="1" cx="-16" imageClassIndex="3" bh="335" name="" XMapItem="OctoTron" ch="32" by="-167" cw="32" cy="-16" id="26">
 						<params/>
 					</XMapItem>
 				</XSubmap>
 			</XSubmaps>
 		</XLayer>
-		<XLayer layer="1" vx="0" currID="0" submapHeight="512" submapCols="32" vh="0" vy="0" name="layer0" submapRows="32" submapWidth="512" visible="true" grid="true" vw="0">
+		<XLayer submapHeight="512" submapWidth="512" currID="0" submapRows="32" layer="1" name="layer0" vw="0" vh="0" grid="true" visible="true" vy="0" submapCols="32" vx="0">
 			<imageClassNames/>
 			<classNames/>
 			<items/>
 			<XSubmaps/>
 		</XLayer>
-		<XLayer layer="2" vx="0" currID="0" submapHeight="512" submapCols="32" vh="0" vy="0" name="obj1" submapRows="32" submapWidth="512" visible="true" grid="false" vw="0">
+		<XLayer submapHeight="512" submapWidth="512" currID="0" submapRows="32" layer="2" name="obj1" vw="0" vh="0" grid="false" visible="true" vy="0" submapCols="32" vx="0">
 			<imageClassNames/>
 			<classNames/>
 			<items/>
 			<XSubmaps/>
 		</XLayer>
-		<XLayer layer="3" vx="0" currID="0" submapHeight="512" submapCols="32" vh="0" vy="0" name="layer1" submapRows="32" submapWidth="512" visible="true" grid="true" vw="0">
+		<XLayer submapHeight="512" submapWidth="512" currID="0" submapRows="32" layer="3" name="layer1" vw="0" vh="0" grid="true" visible="true" vy="0" submapCols="32" vx="0">
 			<imageClassNames/>
 			<classNames/>
 			<items/>
 			<XSubmaps/>
 		</XLayer>
-		<XLayer layer="4" vx="0" currID="0" submapHeight="512" submapCols="32" vh="0" vy="0" name="obj2" submapRows="32" submapWidth="512" visible="true" grid="false" vw="0">
+		<XLayer submapHeight="512" submapWidth="512" currID="0" submapRows="32" layer="4" name="obj2" vw="0" vh="0" grid="false" visible="true" vy="0" submapCols="32" vx="0">
 			<imageClassNames/>
 			<classNames/>
 			<items/>
 			<XSubmaps/>
 		</XLayer>
-		<XLayer layer="5" vx="0" currID="0" submapHeight="512" submapCols="32" vh="0" vy="0" name="layer2" submapRows="32" submapWidth="512" visible="true" grid="true" vw="0">
+		<XLayer submapHeight="512" submapWidth="512" currID="0" submapRows="32" layer="5" name="layer2" vw="0" vh="0" grid="true" visible="true" vy="0" submapCols="32" vx="0">
 			<imageClassNames/>
 			<classNames/>
 			<items/>
 			<XSubmaps/>
 		</XLayer>
-		<XLayer layer="6" vx="0" currID="0" submapHeight="512" submapCols="32" vh="0" vy="0" name="obj3" submapRows="32" submapWidth="512" visible="true" grid="false" vw="0">
+		<XLayer submapHeight="512" submapWidth="512" currID="0" submapRows="32" layer="6" name="obj3" vw="0" vh="0" grid="false" visible="true" vy="0" submapCols="32" vx="0">
 			<imageClassNames/>
 			<classNames/>
 			<items/>
 			<XSubmaps/>
 		</XLayer>
-		<XLayer layer="7" vx="0" currID="0" submapHeight="512" submapCols="32" vh="0" vy="0" name="layer3" submapRows="32" submapWidth="512" visible="true" grid="true" vw="0">
+		<XLayer submapHeight="512" submapWidth="512" currID="0" submapRows="32" layer="7" name="layer3" vw="0" vh="0" grid="true" visible="true" vy="0" submapCols="32" vx="0">
 			<imageClassNames/>
 			<classNames/>
 			<items/>

@@ -23,7 +23,7 @@ package objects.oracle;
 	import openfl.utils.*;
 	
 	//------------------------------------------------------------------------------------------
-	class OracleX extends XLogicObject {
+	class OracleX extends XLogicObjectCX {
 		public var m_sprite:XMovieClip;
 		public var x_sprite:XDepthSprite;
 		

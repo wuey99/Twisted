@@ -100,7 +100,7 @@
         </XMapItem>
       </resource>
       <resource name="OctoTron" type=".item" embed="false" path="" src="" dst="">
-        <XMapItem logicClassName="XLogicObjectXMap:XLogicObjectXMap" hasLogic="true" imageClassName="CircusSpawnerRing:CircusSpawnerRing" boundingRect="">
+        <XMapItem logicClassName="$OctoTron" hasLogic="true" imageClassName="CircusSpawnerRing:CircusSpawnerRing" boundingRect="">
           <params/>
         </XMapItem>
       </resource>
@@ -109,6 +109,16 @@
       <resource name="@Intro" type=".xmap" path="common" src="B60E8B2A-F272-0F1F-49D9-81729DDDD3AE-Intro.xmap" dst="B60E8B2A-F272-0F1F-49D9-81729DDDD3AE-Intro.swf" embed="false"/>
       <resource name="Intro" type=".as" embed="false" path="common" src="F2787110-BCAA-3A29-E745-6496F138CD92-Intro.as" dst="F2787110-BCAA-3A29-E745-6496F138CD92-Intro.swf">
         <classX name="Intro" regX="0" regY="0" width="32" height="32"/>
+      </resource>
+    </folder>
+    <folder name="Fonts">
+      <resource name="#SmalFont" type=".pmp" embed="false" path="common" src="C492A3C6-D595-281D-B589-9C102BD27FD5-SmalFont.pmp" dst="C492A3C6-D595-281D-B589-9C102BD27FD5-SmalFont.pmp" tileXML="PGZsYT4NICAgIDxtb3ZpZUNsaXAgY2xhc3NOYW1lPSJTbWFsRm9udCIgeD0iOTMzIiB5PSIxMjI5IiB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIGR4PSIzIiBkeT0iMCIgcmVnWD0iMCIgcmVnWT0iMCIgY29scz0iNjQiIHJvd3M9IjEiLz4NPC9mbGE+"/>
+      <resource name="SmalFont" type=".fla" embed="true" path="common" src="89F2E80C-7FC8-CE39-D6CA-01805C449F19-SmalFont.fla" dst="89F2E80C-7FC8-CE39-D6CA-01805C449F19-SmalFont.swf">
+        <classX name="SmalFont" regX="0" regY="0" width="32" height="32"/>
+      </resource>
+      <resource name="#SmallHiresFont" type=".pmp" embed="false" path="common" src="F8B45108-CC40-68B5-D02D-A4AF26A4D963-SmallHiresFont.pmp" dst="F8B45108-CC40-68B5-D02D-A4AF26A4D963-SmallHiresFont.pmp" tileXML="PGZsYT4NICAgIDxtb3ZpZUNsaXAgY2xhc3NOYW1lPSJTbWFsbEhpcmVzRm9udCIgeD0iNzEwIiB5PSIxMzE5IiB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIGR4PSIzIiBkeT0iMCIgcmVnWD0iMCIgcmVnWT0iMCIgY29scz0iNjQiIHJvd3M9IjEiLz4NPC9mbGE+"/>
+      <resource name="SmallHiresFont" type=".fla" embed="false" path="common" src="F3CF6AE0-10E5-17E7-E542-AFF59EB4B159-SmallHiresFont.fla" dst="F3CF6AE0-10E5-17E7-E542-AFF59EB4B159-SmallHiresFont.swf">
+        <classX name="SmallHiresFont" regX="0" regY="0" width="32" height="32"/>
       </resource>
     </folder>
   </folder>

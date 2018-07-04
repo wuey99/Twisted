@@ -34,5 +34,8 @@
 <library path="src\\assets\\Cows\\Project\\common\\9DCA8791-98B8-3CEC-6C3F-AB4A1EC16E39-CircusSpawnerBG.swf" preload="true" generate="true" />
 <library path="src\\assets\\Cows\\Project\\common\\DA77F7D7-643E-CF43-7FD6-39982570804C-Zone_Icon.swf" preload="true" generate="true" />
 <library path="src\\assets\\Cows\\Project\\common\\21046189-998B-2649-B68D-A0FAF4AA6729-StarterRing.swf" preload="true" generate="true" />
+<library path="src\\assets\\Cows\\Project\\common\\89F2E80C-7FC8-CE39-D6CA-01805C449F19-SmalFont.swf" preload="true" generate="true" />
+<library path="src\\assets\\Cows\\Project\\common\\F3CF6AE0-10E5-17E7-E542-AFF59EB4B159-SmallHiresFont.swf" preload="true" generate="true" />
+
 	
 </project>

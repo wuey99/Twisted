@@ -98,7 +98,7 @@ package;
 				},
 				
 				function ():Void {
-					#if true
+					#if false
 					var __oracleObject:OracleX = cast xxx.getXLogicManager ().initXLogicObjectFromPool (
 						// parent
 						null,
@@ -112,6 +112,23 @@ package;
 						1.0, 0
 					) /* as OracleX */;
 					#end
+				},
+				
+				function ():Void {
+					addTask ([
+						XTask.LABEL, "loop",
+							XTask.WAIT, 0x0100,
+							
+							function ():Void {
+								m_levelObject.updateScroll ();
+								
+								m_levelObject.updateFromXMapModel ();
+							},
+							
+							XTask.GOTO, "loop",
+							
+						XTask.RETN,
+					]);
 				},
 				
 				function (__state:Float = -1):Void {
@@ -202,6 +219,8 @@ package;
 			
 			xxx.unloadClass (m_levelProps.getProperty ("resource"));
 			
+			m_levelObject.scrollTo (G.appX.PLAYFIELD_LAYER, -(3343-700/2), -(3220-550/2));
+			
 			#if false
 			var __hudX:Dynamic /* */ = m_levelProps.getProperty ("hud");
 			
@@ -242,11 +261,11 @@ package;
 		
 			getAllGlobalItems ();
 
-			#if false
 			setCurrentZone (m_levelProps.getProperty ("zone"));
 			
 			m_levelObject.onEntry ();
-			
+
+			#if false
 //			setMickeyToStartPosition (m_currentZone);
 			#end
 			
