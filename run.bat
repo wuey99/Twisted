@@ -1,1 +1,1 @@
-haxelib run lime test html5
+haxelib run lime run html5
